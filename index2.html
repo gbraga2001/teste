@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sobre Nós</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            background-color: #f1f1f1;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #18929D;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sobre Mim</h1>
+        <p>Olá! Meu nome é <span id="Ana Beatriz e Gustavo Braga"></span>. Eu sou <span id="idade"></span> anos de idade e estou interessado em <span id="interesses"></span>.</p>
+        <p>Se você quiser saber mais sobre mim, fique à vontade para entrar em contato. Estou sempre em busca de novas oportunidades e projetos interessantes.</p>
+        <a href="index1.html" class="button">Entre em Contato</a>
+    </div>
+
+    <script>
+        // Dados pessoais
+        var nome = "Seu Nome";
+        var idade = 25;
+        var interesses = "programação, design, música";
+
+        // Atualiza os elementos HTML com os dados
+        document.getElementById("nome").textContent = nome;
+        document.getElementById("idade").textContent = idade;
+        document.getElementById("interesses").textContent = interesses;
+    </script>
+</body>
+</html>
