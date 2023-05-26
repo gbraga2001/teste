@@ -33,7 +33,7 @@ nav li a{
     font-size: 18px;
     font-weight: 500;
     padding: 8px 15px;
-    border-radius: 5px;@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+    border-radius: 5px;
     *{
         margin: 0;
         padding: 0;
@@ -69,7 +69,7 @@ nav li a{
         font-weight: 500;
         padding: 8px 15px;
         border-radius: 5px;
-        transition: 0.3s;
+        transition: 0.3s;@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
     }
     nav li a:hover{
         background-color: white; 
@@ -151,7 +151,7 @@ nav li a:hover{
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: center;@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+    justify-content: center;
     *{
         margin: 0;
         padding: 0;
@@ -290,6 +290,7 @@ nav li a:hover{
                 transform: translateX(5px);
             }
             100% {
+    
                 transform: translateX(0);
             }
         }
@@ -331,7 +332,7 @@ nav li a:hover{
         display: block;
         width: 200px;
         height: 50px;
-        background-color: rgb(109, 109, 109);
+        background-color: #6d6d6d;
         color: rgb(255, 255, 255);
         text-align: center;
         line-height: 50px;
@@ -377,16 +378,12 @@ nav li a:hover{
                 transform: translateX(0);
             }
             75% {
-                transform: translateX(5px);
-            }
-            100% {
+    
+    
+    
                 transform: translateX(0);
             }
         }
         border-radius: 5px;
-        border: 2px solid white;
-        float: left;
-        margin: 20px 0 20px 50px;
-    }
-    
+        border: 2
     
