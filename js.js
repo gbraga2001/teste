@@ -38,6 +38,9 @@ for (let i = 0; i < productcontainer.length; i++) {
     {
       name: 'Product Name 1',
       description: 'Product Description 1',
+      Add files via upload
+      2 weeks ago
+      
       price: 100,</script>
     {
       name: 'Product Name 2',
